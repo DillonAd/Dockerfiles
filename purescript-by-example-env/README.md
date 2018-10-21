@@ -12,3 +12,6 @@ Run `run.bat <location-of-purscript-project>` and you will be dropped into the U
 ### Linux/Mac
 
 Run `run.sh <location-of-purscript-project>` and you will be dropped into the Ubuntu container with all of the necessary tools installed.
+
+# Curriculum
+Link to the book: [https://leanpub.com/purescript/read](https://leanpub.com/purescript/read)

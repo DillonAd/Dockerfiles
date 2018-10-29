@@ -1,4 +1,4 @@
-SET IMAGE_TAG=ruby-dev
+SET IMAGE_TAG=golang-dev
 
 echo "Building Container"
 docker build --tag %IMAGE_TAG% .

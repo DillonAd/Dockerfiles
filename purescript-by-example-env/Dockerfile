@@ -14,9 +14,6 @@ RUN npm --version
 RUN npm install -g bower
 RUN npm install -g pulp
 
-#RUN curl -sSL https://get.haskellstack.org/ | sh
-#RUN PATH=$PATH:/usr/local/bin/stack
-
 RUN npm install -g purescript --unsafe-perm=true
 
 RUN alias bower='bower --allow-root'

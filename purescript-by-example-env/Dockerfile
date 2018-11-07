@@ -6,7 +6,7 @@ RUN apt-get clean && rm -rf /var/lib/apt/lists
 
 RUN curl -sL https://deb.nodesource.com/setup_8.x | bash -
 
-RUN apt-get install -y nodejs
+RUN apt-get install -y nodejs git-core
 
 RUN node --version
 RUN npm --version

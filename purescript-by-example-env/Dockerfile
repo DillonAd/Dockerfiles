@@ -19,6 +19,8 @@ RUN npm install -g pulp
 
 RUN npm install -g purescript --unsafe-perm=true
 
+RUN alias bower='bower --allow-root'
+
 RUN mkdir /app
 WORKDIR /app
 

@@ -1,5 +1,7 @@
 # Go Environment
 
+Compile and run Go programs without having to install all of the dependencies on your local machine!
+
 ## Prerequisites
 
  - Docker is installed
